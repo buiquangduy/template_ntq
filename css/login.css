@@ -1,0 +1,47 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+.box-login{
+	width: 350px;
+	height: 300px;
+	margin: auto;
+	margin-top: 200px;
+	border-radius: 5px;
+	border:1px solid #ddd;
+	box-shadow: 1px 1px 4px #888888;
+}
+.box-login .head{
+	float: left;
+	height: 40px;
+	width: 100%;
+	background-color: #416C9B;
+}
+.head img{
+	margin-top: 10px;
+    margin-left: 10px;
+}
+.box-login .form-group,.checkbox,button{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+label{
+	font-size: 12px;
+	font-weight: normal;
+}
+label#user{
+	margin-top: 10px;
+}
+form .btn-info{
+	color: #fff;
+    width: 300px;
+    background-color:#416C9B;
+    border-color: #226275;
+    height: 30px;
+    font-size: 13px;
+    font-family: arial;
+    box-shadow: 1px 1px 4px #888888;
+}
+.checkbox{
+	margin-bottom: -10px;
+}

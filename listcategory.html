@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template list category</title>
+	<meta charset="utf-8">
+	<!-- css -->
+	<link rel="icon" type="image/ico" href="favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/listcategory.css">
+	<link href="awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- js -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container-fluid header">
+			<a href="#">
+				<img src="img/logo.png" alt="NTQ Solution - Admin Control Panel" title="NTQ Solution - Admin Control Panel">
+			</a>
+		</div>
+	</header>
+	<div class="row">
+		<div class="menu col-sm-2 col-xs-12">
+			<div class="breadLine">
+				<p>Hi. Bui Quang Duy</p>
+			</div>
+			<div class="admin">
+				<div class="image">
+					<img src="img/users/avatar.jpg" width="80%" height="80%" style="margin-left: 10% ; margin-top: 10%" />
+				</div>
+				<ul class="control">
+					<li>
+						<span class="glyphicon glyphicon-cog"></span>
+						<a href="#">Update Profile</a>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-share-alt"></span>
+						<a href="#">Logout</a>
+					</li>
+				</ul>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<span class="glyphicon glyphicon-th-large"></span>
+						<a href="listcategory.html">Categories</a>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-th-list"></span>
+						<a href="listproduct.html">Products</a>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-user"></span>
+						<a href="#">Users</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content col-sm-10 col-xs-12">
+			<div class="breadLine">
+				<p>List Categories</p>
+			</div>
+			<div class="workplace">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12">
+						<div class="search">
+							<form role="form">
+							  	<div class="form-group">
+							    	<input type="text" id="search" class="form-control" id="exampleInputEmail1" placeholder="Enter key search">
+							    	<button class="btn btn-info">Search</button>
+							  	</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-xs-12">
+						<div class="table_category">
+							<div class="head">
+								<span class="glyphicon glyphicon-th-large" style="color: #ffffff;margin-left: 12px;margin-top: 10px;"></span>
+								<p style="margin-left: 35px;margin-top: -20px;color: #ffffff;font-weight: bold;">	Categories Management
+								</p>
+							</div>
+							<div class="table-sorting">
+								<div class="head">
+									<a class="btn btn-info" href="addcategory.html">
+										Add categories
+									</a>
+								</div>
+								<table cellpadding="0" cellspacing="0" width="100%" class="table" id="tSortable_2">
+			                        <thead>
+				                        <tr>
+				                            <th><input type="checkbox" id="checkAll"></th>
+				                            <th width="15%" class="sorting"><a href="#">ID</a></th>
+				                            <th width="35%" class="sorting"><a href="#">Category Name</a></th>
+				                            <th width="20%" class="sorting"><a href="#">Activate</a></th>
+				                            <th width="10%" class="sorting"><a href="#">Time Created</a></th>
+				                            <th width="10%" class="sorting"><a href="#">Time Updated</a></th>
+				                            <th width="10%">Action</th>
+				                        </tr>
+			                        </thead>
+			                        <tbody>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>1</td>
+			                            <td>Category 1</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="editcategory.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>2</td>
+			                            <td>Category 2</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="editcategory.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>3</td>
+			                            <td>Category 3</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>4</td>
+			                            <td>Category 4</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>5</td>
+			                            <td>Category 6</td>
+			                            <td><span class="text-error">Deactivate</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>6</td>
+			                            <td>Category 6</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>7</td>
+			                            <td>Category 7</td>
+			                            <td><span class="text-error">Deactivate</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>8</td>
+			                            <td>Category 8</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>9</td>
+			                            <td>Category 9</td>
+			                            <td><span class="text-error">Deactivate</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        <tr>
+			                            <td><input type="checkbox" name="checkbox"></td>
+			                            <td>10</td>
+			                            <td>Category 10</td>
+			                            <td><span class="text-success">Activated</span></td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td>15:00 05/10/2014</td>
+			                            <td><a href="edit-category.html" class="btn btn-info">Edit</a></td>
+			                        </tr>
+			                        </tbody>
+			                    </table>
+			                    <div class="footer">
+			                    	<button class="btn btn-success">Action</button>
+			                    	<button class="btn btn-success">Delete</button>
+			                    	<div class="paginate">
+			                    		<ul>
+			                    			<li><a href="">First</a></li>
+			                    			<li><a href="">Previous</a></li>
+			                    			<li class="one"><a href="">1</a></li>
+			                    			<li><a href="">2</a></li>
+			                    			<li><a href="">next</a></li>
+			                    			<li><a href="">Last</a></li>	
+			                    		</ul>
+			                    	</div>
+			                    </div>
+			                    <div class="pr"> </div>
+			                    <img src="img/backgrounds/divider_span.png" style="float: left;margin-top: 29px;">
+			                    <div class="pr"> </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
